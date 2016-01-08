@@ -57,11 +57,6 @@
 		<servlet-name>LiveReportserv</servlet-name>
 		<url-pattern>/LiveReportserv</url-pattern>
 	</servlet-mapping>
-	<filter>
-		<display-name>FilterClass</display-name>
-		<filter-name>FilterClass</filter-name>
-		<filter-class>com.avekshaa.cis.engine.FilterClass</filter-class>
-	</filter>
 	<filter-mapping>
 		<filter-name>FilterClass</filter-name>
 		<url-pattern>*.jsp</url-pattern>
